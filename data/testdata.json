@@ -1,0 +1,10 @@
+{
+  "url": "https://www.google.com",
+  "validCredentials":
+    {
+      "username": "test",
+      "password": "dummyvalue"
+    }
+
+
+}
