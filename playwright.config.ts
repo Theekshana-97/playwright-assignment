@@ -1,4 +1,9 @@
 import { defineConfig, devices } from "@playwright/test";
+import dotenv from "dotenv";
+import path from "path";
+
+//read from ".env" file
+dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 export const runId = process.env.RUN_ID;
 // export const runId = new Date().toISOString();
