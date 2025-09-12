@@ -8,11 +8,12 @@
 4. [Running Tests](#running-tests)
 5. [Test Structure](#test-structure)
 6. [Helpers](#helpers)
-7. [Pages](#pages)
-8. [Data Files](#data-files)
-9. [Configuration](#configuration)
-10. [Makefile](#makefile)
-11. [Scripts](#scripts)
+7. [Utils](#utils)
+8. [Pages](#pages)
+9. [Data Files](#data-files)
+10. [Configuration](#configuration)
+11. [Makefile](#makefile)
+12. [Scripts](#scripts)
 
 ## Introduction
 
@@ -75,6 +76,10 @@ The `tests/` folder contains test spec files for different functionalities.
 ## Helpers
 
 The `helpers/` folder contains helper classes and scripts to support the tests.
+
+## Utils
+
+The `utils/` folder contains utility classes supports for logs etc.
 
 ## Pages
 
