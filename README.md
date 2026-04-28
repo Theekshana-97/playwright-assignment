@@ -69,8 +69,6 @@ To generate and upload the test report, use the following command:
 make report
 ```
 
-## How to Run Tests
-
 Run all tests:
 ```bash
 npx playwright test

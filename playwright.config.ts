@@ -19,16 +19,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 5 : 5,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    [
-      "html",
-      {
-        attachmentsBaseURL: `https://slch-qa-automation-results.s3.eu-north-1.amazonaws.com/${runId}/data/`,
-        outputFolder: `./playwright-report/${runId}/`,
-        open: "never",
-      },
-    ],
-  ],
+  reporter: [['html', { open: 'never' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     screenshot: "on",
