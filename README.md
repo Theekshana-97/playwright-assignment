@@ -58,21 +58,10 @@ tests/
 
 ## Running Tests
 
-
-```sh
-pnpm test
-```
-
-To generate and upload the test report, use the following command:
-
-```sh
-make report
-```
-
 Run all tests:
 ```bash
 npx playwright test
-
+```
 
 
 ## Test Structure
