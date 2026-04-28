@@ -54,10 +54,10 @@ tests/
    ```sh
    pnpm install
    ```
+3. Note: .env file is not included for security reasons.
 
 ## Running Tests
 
-To run the tests, use the following command:
 
 ```sh
 pnpm test
@@ -68,6 +68,12 @@ To generate and upload the test report, use the following command:
 ```sh
 make report
 ```
+Use the command below to run all tests:
+npx playwright test
+
+Run the SauceDemo test file in headed mode:
+npx playwright test tests/saucedemo.spec.ts --headed
+
 
 ## Test Structure
 
